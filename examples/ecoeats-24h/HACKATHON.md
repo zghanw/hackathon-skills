@@ -1,6 +1,6 @@
-# HACKATHON.md — HackTheWaste 2026 (24h, campus sustainability)
+# HACKATHON.md: HackTheWaste 2026 (24h, campus sustainability)
 
-<!-- FICTIONAL WORKED EXAMPLE — output of /hackathon-kickoff, shown so you
+<!-- FICTIONAL WORKED EXAMPLE: output of /hackathon-kickoff, shown so you
      know what the skill produces before you run it. -->
 
 ## The one-liner
@@ -11,7 +11,7 @@ the bin.
 
 ## Urgency hook
 
-Our campus throws away ~340 kg of edible food every day — roughly 900 meals —
+Our campus throws away ~340 kg of edible food every day (roughly 900 meals)
 while 1 in 4 students report skipping meals to save money; both numbers are
 from last semester's sustainability audit, and every day without a fix is
 another 900 meals in the dumpster.
@@ -62,7 +62,7 @@ top-weighted criterion.
 
 ## Scope cuts (running log)
 
-1. Multi-campus support — one campus is the whole demo.
-2. Dietary-preference filters — cut first if behind at T+14h.
-3. Dining-hall analytics dashboard — a slide mockup is enough for judges.
+1. Multi-campus support: one campus is the whole demo.
+2. Dietary-preference filters: cut first if behind at T+14h.
+3. Dining-hall analytics dashboard: a slide mockup is enough for judges.
 4. ~~Accounts/login~~ CUT at T+9h: claim via magic link instead, saved ~3h.

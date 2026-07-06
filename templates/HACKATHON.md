@@ -1,7 +1,7 @@
-# HACKATHON.md — <hackathon name>
+# HACKATHON.md: <hackathon name>
 
 <!-- Filled in by /hackathon-kickoff. Every downstream phase (brainstorming,
-     build, deck, /pitch-timebox) reads this file — keep it current when the
+     build, deck, /pitch-timebox) reads this file; keep it current when the
      team pivots or cuts scope. -->
 
 ## The one-liner
@@ -10,7 +10,7 @@
 
 ## Urgency hook
 
-<One sentence naming the concrete stakes of NOT solving this now — who it
+<One sentence naming the concrete stakes of NOT solving this now: who it
 hurts, how much, why now. A number beats an adjective.>
 
 ## Judging rubric
@@ -22,7 +22,7 @@ hurts, how much, why now. A number beats an adjective.>
 ## Angle decision
 
 <2–3 candidate angles, gut-scored 1–5 per criterion, weighted total. Mark the
-chosen one. Keep the losers listed — if the team pivots at 3am, this table
+chosen one. Keep the losers listed: if the team pivots at 3am, this table
 says what plan B already scored.>
 
 | Angle | <crit 1> | <crit 2> | <crit 3> | <crit 4> | Weighted |
@@ -53,7 +53,7 @@ says what plan B already scored.>
 
 ## Scope cuts (running log)
 
-<When behind at a checkpoint, cut from the top of this list first — decided
+<When behind at a checkpoint, cut from the top of this list first, decided
 now, while calm, not at 4am.>
 
 1. <first thing to cut>

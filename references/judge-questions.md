@@ -2,7 +2,7 @@
 
 Fifteen questions that come up at nearly every hackathon, grouped by the
 rubric criterion they're really probing. `/pitch-timebox` pulls from this
-list when building your Q&A prep sheet — prioritize the group matching your
+list when building your Q&A prep sheet: prioritize the group matching your
 **weakest** criterion, because that's where judges dig.
 
 Each question has a prep line: what a strong answer contains, not a script.
@@ -15,7 +15,7 @@ Each question has a prep line: what a strong answer contains, not a script.
    audit" survives follow-ups.
 2. **"What changes for them the day this exists?"**
    Prep: one before/after sentence. If the answer needs two sentences, the
-   product isn't focused enough — fix the pitch, not the answer.
+   product isn't focused enough; fix the pitch, not the answer.
 3. **"Where did that number come from?"**
    Prep: name the source out loud (audit, dataset, interview count). Bring
    the source. A judge who catches one invented number distrusts every slide.
@@ -23,7 +23,7 @@ Each question has a prep line: what a strong answer contains, not a script.
 ## Technical execution ("what did you actually build?")
 
 4. **"Is that live or mocked?"**
-   Prep: answer honestly and precisely — "the push is real, the second
+   Prep: answer honestly and precisely: "the push is real, the second
    dining hall is seeded data." Judges forgive mocks; they don't forgive
    discovering one.
 5. **"What did you build versus call an API for?"**
@@ -36,10 +36,10 @@ Each question has a prep line: what a strong answer contains, not a script.
 ## Innovation ("why hasn't someone done this?")
 
 7. **"What's the closest existing tool, and why isn't it enough?"**
-   Prep: name a real competitor yourself — naming it first turns a gotcha
+   Prep: name a real competitor yourself; naming it first turns a gotcha
    into a comparison you control.
 8. **"What's the one thing here someone couldn't clone in a weekend?"**
-   Prep: usually not code — it's the mechanism, dataset, or relationship
+   Prep: usually not code; it's the mechanism, dataset, or relationship
    (the claim-window design, the dining-services pilot email).
 
 ## Viability ("who pays?")
@@ -55,7 +55,7 @@ Each question has a prep line: what a strong answer contains, not a script.
 ## Execution under constraint ("can this team ship?")
 
 11. **"What did you cut, and why?"**
-    Prep: this is a gift — answer with your scope-cut log. Teams that cut
+    Prep: this is a gift; answer with your scope-cut log. Teams that cut
     deliberately read as senior; teams that "ran out of time" read as junior.
 12. **"What would you do with 30 more days?"**
     Prep: one concrete next step already in motion (a drafted pilot email
@@ -70,12 +70,12 @@ Each question has a prep line: what a strong answer contains, not a script.
     Prep: have a second path rehearsed (different item, different radius).
     A demo that only works one way looks like a recording.
 15. **"What happens with bad input?"**
-    Prep: show the guard, don't describe it — type the garbage yourself
+    Prep: show the guard, don't describe it; type the garbage yourself
     before the judge asks to.
 
 ---
 
 **The meta-rule:** judges ask questions to find the edge of what's real.
 Every answer that names a source, a number, a cut, or a limitation moves the
-edge further out than they expected — that's what scoring "above expectation"
+edge further out than they expected: that's what scoring "above expectation"
 literally is.

@@ -1,4 +1,4 @@
-# PITCH.md — <team name> @ <hackathon>
+# PITCH.md: <team name> @ <hackathon>
 
 <!-- Filled in by /pitch-timebox. Print this or keep it open one hour before
      going on stage. -->
@@ -14,17 +14,17 @@
 | 0:00–<t> | | Hook + urgency | | | "<last sentence, cues next speaker by name or topic>" |
 | <t>–<t> | | Solution + live demo | | ⚠ fallback: <backup recording path> | |
 | <t>–<t> | | Impact / why now | | | |
-| <t>–<t> | | Team + ask/close | | <verbatim closing line> | — |
+| <t>–<t> | | Team + ask/close | | <verbatim closing line> | n/a |
 
 ## Demo fallback
 
-- Backup recording: `<path>` — tested and plays with sound off.
+- Backup recording: `<path>`, tested and plays with sound off.
 - Who triggers it: <name>, the moment the live demo stalls for >10 seconds.
   No apologizing on stage, just "let me show you the recording."
 
 ## Q&A prep
 
-<One likely question per rubric criterion — steal from
+<One likely question per rubric criterion: steal from
 references/judge-questions.md, prioritizing your weakest criterion.>
 
 | Likely question | One-line answer | Who answers |
@@ -32,8 +32,8 @@ references/judge-questions.md, prioritizing your weakest criterion.>
 
 ## Rehearsal checklist
 
-- [ ] Full run #1 with a stopwatch — time: ____ (over by >10% → cut content, don't talk faster)
-- [ ] Full run #2 — time: ____
+- [ ] Full run #1 with a stopwatch, time: ____ (over by >10% → cut content, don't talk faster)
+- [ ] Full run #2, time: ____
 - [ ] Every handoff line lands (next speaker starts within 2 seconds)
 - [ ] Demo fallback recording actually plays on the presenting machine
 - [ ] Each Q&A owner answers their question cold, out loud, once

@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "hackathon-skills",
-  "description": "Claude Code skills for running a hackathon end-to-end: rubric-aware kickoff, a phase router, and a multi-speaker pitch timeboxer.",
+  "description": "Claude Code skills for running a hackathon end-to-end: rubric-aware kickoff, a phase router, and a multi-speaker pitch timebox.",
   "owner": {
     "name": "Chan Hao Wen",
     "url": "https://github.com/zghanw"
@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "hackathon-skills",
-      "description": "Rubric-aware kickoff, phase router, and pitch timeboxer for hackathon teams. Pairs with superpowers (brainstorming), gstack (qa/design), ui-ux-pro-max (UI polish), and anthropic's pptx skill (slides) — see SCENARIOS.md.",
+      "description": "Rubric-aware kickoff, phase router, and pitch timebox for hackathon teams. Pairs with superpowers (brainstorming), gstack (qa/design), ui-ux-pro-max (UI polish), and anthropic's pptx skill (slides); see SCENARIOS.md.",
       "source": "./",
       "category": "productivity"
     }
