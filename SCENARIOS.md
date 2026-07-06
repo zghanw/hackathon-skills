@@ -22,6 +22,7 @@ haven't installed yet, install it when you reach that row, not before.
 | Want video + deck + landing page from the same codebase | `pitchkit` (EricSun0218) or `fluiddocs-deck-builder` (FluidForm-ai) | One pass turns a repo into a promo video, `.pptx`, and a single-file landing page (pitchkit), or gives you brand-mirror deck templates + PDF/PPTX import (fluiddocs). |
 | Deck exists, narrative feels weak or unfocused | `winning-pitch-deck` (0xbenbottle, DePitch review mode) or `dkorobtsov/pitch-deck` audit phase | Scores an existing deck/script against a rubric and returns the top 3-5 fixes — not a rewrite. |
 | Given N minutes and M teammates, need to know who says what and when | `/pitch-timebox` (this repo) | Slices the word budget by rubric weight, assigns contiguous speaker blocks with handoff lines, drafts Q&A prep, produces a rehearsal checklist. |
+| Q&A is in an hour and you don't know what judges will ask | [references/judge-questions.md](references/judge-questions.md) (this repo) | The 15 questions judges actually ask, grouped by rubric criterion, each with what a strong answer contains. |
 | Not sure what phase you're in / what to do next | `/hackathon-flow` (this repo) | Reads what already exists in the repo (`HACKATHON.md`, app code, deck, script) and points at the next skill. |
 | Final hour before pitching | gstack `/qa-only` (dry run, no fixes) + `/pitch-timebox`'s rehearsal checklist | Confirms the live app still works and the timing holds without touching code. |
 
@@ -51,6 +52,14 @@ problem statement + rubric
         ▼
   gstack /qa-only dry run  ──▶  go pitch
 ```
+
+## What the outputs look like
+
+Both artifact-producing skills fill in the templates at
+[templates/](templates/) and there's a complete fictional worked example — a
+24h campus hackathon, 4 teammates, 5-minute pitch — at
+[examples/ecoeats-24h/](examples/ecoeats-24h/). Read it before your first
+kickoff; it's faster than any explanation of what the skills do.
 
 ## Prior art worth knowing about
 

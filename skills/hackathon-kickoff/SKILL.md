@@ -54,10 +54,14 @@ Ask only for what's missing:
    Default to a **Feature Zero** checkpoint early: one thin end-to-end slice
    (mock data is fine) deployed and demo-able before any individual feature
    is built, so there's always something to show no matter when time runs out.
-6. **Write `HACKATHON.md`** in the repo root capturing: the chosen angle, the
-   rubric scoring table, the urgency hook, the phase plan with checkpoint
-   times, and the team roster. Every later phase (brainstorming, deck,
-   pitch-timeboxer) reads this file so the story stays consistent end to end.
+6. **Write `HACKATHON.md`** in the repo root by filling in
+   `${CLAUDE_PLUGIN_ROOT}/templates/HACKATHON.md` — every section, including
+   the team table (who owns which build layer AND which pitch section) and a
+   pre-agreed scope-cut list decided now, while calm, not at 4am. Every later
+   phase (brainstorming, deck, `/pitch-timebox`) reads this file so the story
+   stays consistent end to end. A fully worked example:
+   `${CLAUDE_PLUGIN_ROOT}/examples/ecoeats-24h/HACKATHON.md` — match its
+   specificity, especially the demo-able proof point per criterion.
 
 ## Phase handoff
 

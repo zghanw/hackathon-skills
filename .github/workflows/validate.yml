@@ -1,0 +1,27 @@
+name: validate
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate manifests and skill frontmatter
+        run: |
+          node -e '
+          const fs = require("fs");
+          JSON.parse(fs.readFileSync(".claude-plugin/marketplace.json", "utf8"));
+          JSON.parse(fs.readFileSync(".claude-plugin/plugin.json", "utf8"));
+          for (const dir of fs.readdirSync("skills")) {
+            const md = fs.readFileSync("skills/" + dir + "/SKILL.md", "utf8");
+            const fm = md.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+            if (!fm) throw new Error(dir + ": missing frontmatter");
+            for (const key of ["name:", "description:"])
+              if (!fm[1].includes(key)) throw new Error(dir + ": missing " + key);
+            const name = fm[1].match(/name:\s*(\S+)/)[1];
+            if (name !== dir) throw new Error(dir + ": name \"" + name + "\" != directory name");
+          }
+          console.log("manifests and skills valid");
+          '

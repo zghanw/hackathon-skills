@@ -1,9 +1,9 @@
 ---
-name: pitch-timeboxer
+name: pitch-timebox
 description: Given a pitch time limit, a team roster, and (optionally) an existing deck or narration script, produce a per-section timing table, speaker assignments, a word-count-budgeted script, and a rehearsal checklist. Use once the deck/story exists and the team needs to decide who says what and when.
 ---
 
-# Pitch Timeboxer
+# Pitch Timebox
 
 Distributes a fixed pitch time limit across sections and named teammates, so
 nobody freestyles on stage and nobody fights over who talks when.
@@ -53,7 +53,9 @@ cut into sections instead of drafting new copy from scratch.
    demo fails).
 5. **Draft Q&A prep.** One likely judge question per rubric criterion, with a
    one-line answer and who answers it (usually the person who owns that part
-   of the build).
+   of the build). Pull candidate questions from
+   `${CLAUDE_PLUGIN_ROOT}/references/judge-questions.md` — pick the ones this
+   team's weakest criterion invites, not just the easy ones.
 6. **Rehearsal checklist.** Run it with a stopwatch at least twice; if any
    run goes over by more than 10%, cut content — don't speed up delivery.
    Confirm every handoff line lands, confirm the demo fallback plays, confirm
@@ -61,6 +63,12 @@ cut into sections instead of drafting new copy from scratch.
 
 ## Output
 
-A `PITCH.md` in the repo root with the timing table, speaker assignments,
-Q&A prep sheet, and rehearsal checklist — so the team can print or read it
-one hour before going on stage.
+Fill in `${CLAUDE_PLUGIN_ROOT}/templates/PITCH.md` and write it as `PITCH.md`
+in the repo root — the timing table, speaker assignments, demo fallback, Q&A
+prep sheet, and rehearsal checklist — so the team can print or read it one
+hour before going on stage.
+
+A fully worked example (fictional 24h hackathon, 4 speakers, 5-minute limit):
+`${CLAUDE_PLUGIN_ROOT}/examples/ecoeats-24h/PITCH.md`. Match its level of
+specificity — verbatim opening and closing lines, bullet scripts in the
+middle, every handoff named.
