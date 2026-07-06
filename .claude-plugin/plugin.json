@@ -1,0 +1,12 @@
+{
+  "name": "hackathon-skills",
+  "version": "0.1.0",
+  "description": "Rubric-aware kickoff, phase router, and multi-speaker pitch timeboxer for hackathon teams using Claude Code.",
+  "author": {
+    "name": "Chan Hao Wen",
+    "url": "https://github.com/zghanw"
+  },
+  "homepage": "https://github.com/zghanw/hackathon-skills",
+  "license": "MIT",
+  "keywords": ["hackathon", "pitch", "demo", "pitchdeck", "productivity", "workflow"]
+}

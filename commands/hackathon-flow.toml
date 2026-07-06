@@ -1,0 +1,2 @@
+description = "Figure out what phase this hackathon project is in and what to do next"
+prompt = "Run the hackathon-flow skill. Check the repo for HACKATHON.md, a fleshed-out spec, working app code, a deck file, and a timed pitch script, in that order, and tell me which phase we're in and exactly which skill or command to invoke next (hackathon-kickoff, superpowers brainstorming, ui-ux-pro-max, gstack design-review/qa, beautiful-hackathon-slides or the pptx skill, or pitch-timebox)."
