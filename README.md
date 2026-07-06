@@ -112,12 +112,18 @@ This repo ships **3 skills** and a decision table pointing at the rest. Install 
 git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup
 ```
 
+```
+# Zero-dependency HTML deck: narration script + live-demo slots. Also not on a plugin marketplace yet
+git clone https://github.com/Esther2524/beautiful-hackathon-slides.git ~/.claude/skills/beautiful-hackathon-slides
+```
+
 Verified directly against each project's current source as of July 2026, so these won't match every guide you find online:
 
 - `superpowers` is on Anthropic's official marketplace, which most Claude Code installs already have registered. It's more than brainstorming: it's a full spec → plan → build pipeline with mandatory TDD and per-task review. Use `brainstorming` and `writing-plans` either way; for the build itself, weigh that rigor against just building off the plan, since full TDD ceremony can cost hours a throwaway demo doesn't have.
 - `gstack` **is not currently a Claude Code plugin**: its repo has no `.claude-plugin` manifest, despite third-party mirrors claiming a `/plugin` install. The clone command above is what its own README documents. Re-run `./setup` after every `git pull`.
 - `ui-ux-pro-max`'s marketplace install has a known symlink bug on some setups; if it fails, fall back to `npm install -g ui-ux-pro-max-cli && uipro init --ai claude`.
-- For the deck: judges want an uploaded `.pptx` → the `pptx` skill from [anthropics/skills](https://github.com/anthropics/skills) (often already bundled). Zero-dependency HTML deck with narration script and live-demo slots → [beautiful-hackathon-slides](https://github.com/Esther2524/beautiful-hackathon-slides).
+- `beautiful-hackathon-slides` is the same story as gstack: its own README says "Plugin Marketplace publishing is coming soon," git clone is the documented method today. Triggers automatically when you ask for a hackathon pitch deck, or invoke `/beautiful-hackathon-slides` directly.
+- If judges specifically require an uploaded `.pptx` instead of an HTML deck: the `pptx` skill from [anthropics/skills](https://github.com/anthropics/skills) (often already bundled in your environment).
 
 If anything here drifts by the time you read it, re-check the source repo's own README, and open a PR here: that's exactly the kind of contribution this repo wants.
 
