@@ -25,3 +25,9 @@ jobs:
           }
           console.log("manifests and skills valid");
           '
+      - name: No em-dashes in prose (house style)
+        run: |
+          if grep -rn "—" --include="*.md" --include="*.json" --exclude-dir=.git .; then
+            echo "em-dash found; use a period, colon, semicolon, comma, or parentheses instead"
+            exit 1
+          fi
